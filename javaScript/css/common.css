@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.mainColumn{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.genba{
+    margin-left: 10%;
+}
+
+.unit{
+    margin-left: 10%;
+}
+
+.gakusyu{
+    margin-left: 10%;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 10%;
+}
+
+.table{
+    margin-right: 10%;
+    width: 200px;
+    height: 200px;
+    margin: 10%;
+}
+
+ul {
+	width: 200px;
+	padding: 0;
+	list-style-type: none;
+	background-color: #eeeeee;
+}
+li a {
+	display: block;
+	padding: 8px 16px;
+	text-decoration: none;
+	color: #000000;
+}
+li {
+	text-align: center;
+}
+li:last-child {
+	border-bottom: none;
+}
+li a:hover:not(.active) {
+	color: #ffffff;
+	background-color: #ec6750;
+}
